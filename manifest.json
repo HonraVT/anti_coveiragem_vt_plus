@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Anti coveiragem VT Plus",
+  "version": "1.0",
+  "author": "magof/honra",
+  "description": "Extensão anti coveiragem do VT.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ignboards.com/forums/vale-tudo.80331/"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
