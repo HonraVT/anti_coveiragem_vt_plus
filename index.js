@@ -79,8 +79,8 @@
     const pageHeight = document.documentElement.scrollHeight;
 
     if (scrollPosition > pageHeight - scrollThreshold) {
-      loadMorePosts();
       removeOldTopicsAndNewAccounts();
+      loadMorePosts();
     }
   }
 })();
