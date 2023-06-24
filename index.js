@@ -1,6 +1,6 @@
 (function () {
   const daysThreshold = 120; //remove topicos criados a mais de 3 meses
-  const accountIdOlderThen = 96594700; // NEW! remove contas criadas por volta de Jun 18, 2023
+  const accountIdOlderThen = 96594500; // NEW! remove contas criadas por volta de Jun 18, 2023
 
   removeOldTopicsAndNewAccounts();
   window.addEventListener("scroll", handleScroll);
